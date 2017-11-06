@@ -25,10 +25,8 @@ Compare all Cohorts data in a multiline series chart.
 4. Install project dependencies in your virtual environment.<br/>
     ` pip install -r requirements.txt`
 
-5.Set up project development. Run db migrations.<br/>
+5. Export the FLASK_APP environment variable. <br/>
      ```export FLASK_APP=charts.py
-        python manage.py db migrate
-        python manage.py db upgrade
       ```
 6. Run the server.<br/>
    `flask run`
