@@ -26,8 +26,7 @@ Compare all Cohorts data in a multiline series chart.
     ` pip install -r requirements.txt`
 
 5. Export the FLASK_APP environment variable. <br/>
-     ```export FLASK_APP=charts.py
-      ```
+     `export FLASK_APP=charts.py`
 6. Run the server.<br/>
    `flask run`
 
